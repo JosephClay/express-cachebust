@@ -1,0 +1,30 @@
+{
+  "name": "express-cachebust",
+  "version": "0.0.1",
+  "description": "cachebust asset paths using an md5 of the file",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephClay/express-cachebust.git"
+  },
+  "keywords": [
+    "express",
+    "cachebust"
+  ],
+  "author": "Joseph Clay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosephClay/express-cachebust/issues"
+  },
+  "homepage": "https://github.com/JosephClay/express-cachebust#readme"
+}
