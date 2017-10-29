@@ -13,8 +13,10 @@ const middleware = root => {
 
 	return (req, res, next) => {
 		const reroutePath = reversePathCache[req.url];
-		if (reroutePath) { req.url = reroutePath; }
-		next();
+		if (!reroutePath) return next();
+
+		req.url = reroutePath;
+		next('route');
 	};
 };
 

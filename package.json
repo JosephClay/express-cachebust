@@ -1,6 +1,6 @@
 {
   "name": "express-cachebust",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cachebust asset paths using an md5 of the file",
   "main": "index.js",
   "directories": {
